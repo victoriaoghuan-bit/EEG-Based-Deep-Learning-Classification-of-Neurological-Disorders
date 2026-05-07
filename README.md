@@ -131,24 +131,6 @@ Three publicly available EEG datasets were used, each covering healthy control a
 └── README.md
 ```
 
----
-
-## 🚀 Getting Started
-
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/eeg-neurological-classification.git
-cd eeg-neurological-classification
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the full pipeline
-python main.py --condition alcoholism --model efficientnet
-
-
-## 📈 Results Summary
-
 The framework achieved strong classification performance across all three neurological conditions, with **EfficientNet-B0 reaching 93% accuracy** as the top-performing model. The VMD + CWT transformation proved effective at surfacing discriminative frequency-domain features from raw EEG signals, enabling pre-trained image models to be applied successfully to a non-image domain.
 
 
